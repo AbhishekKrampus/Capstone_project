@@ -127,6 +127,8 @@ h3 {
 }
 
 .h4,
+span,
+strong,
 h4 {
     font-size: calc(1.275rem + .3vw)
 }
@@ -649,7 +651,7 @@ progress {
 
     .container,
     .container-sm {
-        max-width: 540px
+        max-width: 540px;
     }
 }
 
@@ -658,9 +660,31 @@ progress {
     .container,
     .container-md,
     .container-sm {
-        max-width: 720px
+        max-width: 720px;
+    }
+    span,
+    strong{
+        font-size: 1.3rem;
     }
 }
+
+@media (max-width:375px) {
+    span,
+    strong{
+        font-size: 0.9rem;
+    }
+    
+}
+
+@media (max-width:426px) {
+
+    span,
+    strong{
+        font-size: 0.9rem;
+    }
+}
+
+
 
 @media (min-width:992px) {
 
