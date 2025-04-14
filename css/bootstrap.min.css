@@ -671,16 +671,15 @@ progress {
 @media (max-width:375px) {
     span,
     strong{
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
-    
 }
 
 @media (max-width:426px) {
 
     span,
     strong{
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
 }
 
