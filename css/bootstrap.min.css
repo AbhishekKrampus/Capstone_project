@@ -684,6 +684,13 @@ progress {
     }
 }
 
+@media (max-width:320px) {
+
+    span,
+    strong{
+        font-size: 0.7rem;
+    }
+}
 
 
 @media (min-width:992px) {
